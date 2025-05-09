@@ -1,12 +1,91 @@
-# React + Vite
+# 📄 Zeno – IPYNB to PDF Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Zeno is a modern web app that allows users to upload Jupyter Notebook files (`.ipynb`) and convert them into **beautiful, styled PDFs** with customizable fonts, colors, and margins.
 
-Currently, two official plugins are available:
+![Homepage Preview](image.png)
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+- 🌐 Frontend: [zeno-phi.vercel.app](https://zeno-phi.vercel.app)
+- 🔧 Backend: [zeno-backend-zbr4.onrender.com](https://zeno-backend-zbr4.onrender.com)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Features
+
+✅ Drag & drop IPYNB file upload  
+✅ Customize PDF heading font, color, alignment, and margins  
+✅ Live heading preview  
+✅ Animated UI with Framer Motion  
+✅ In-browser PDF viewer + download  
+✅ Emoji feedback system  
+✅ Mobile responsive layout  
+✅ Beautiful dark glassmorphic design
+
+---
+
+## 🖼 Tech Stack
+
+### Frontend
+- React + Vite
+- Tailwind CSS
+- Framer Motion
+- React Hot Toast
+- PDF.js for viewer
+
+### Backend
+- FastAPI
+- WeasyPrint (PDF generation)
+- nbconvert + nbformat (IPYNB parsing)
+- CORS middleware
+- Render deployment
+
+---
+
+## 🗂 Folder Structure
+
+```
+IPYNB_TO_PDF/
+├── Backend/
+│   ├── main.py
+│   ├── convert_utils.py
+│   └── test_notebooks/
+├── frontend/
+│   ├── components/
+│   ├── pages/
+│   └── public/
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 🧠 Inspiration
+
+Built to simplify the boring process of exporting Jupyter notebooks into well-formatted, styled reports for submission or presentation.
+
+---
+
+## 📸 Screenshot
+
+> You can place the preview image here:
+
+![Homepage Preview](image.png)
+![Services](services.png)
+![Feedback](feedback.png)
+
+---
+
+## 💡 Future Improvements
+
+- Multi-format support: Markdown → PDF, PDF → Word  
+- User authentication & file history  
+- Add watermark or page numbering controls  
+- Light/Dark PDF style presets
+
+---
+
+## 🙌 Credits
+
+Crafted with ❤️ by [Manjil Budhathoki](https://github.com/manjil-budhathoki)
