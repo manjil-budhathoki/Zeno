@@ -2,7 +2,7 @@
 
 Zeno is a modern web app that allows users to upload Jupyter Notebook files (`.ipynb`) and convert them into **beautiful, styled PDFs** with customizable fonts, colors, and margins.
 
-![Homepage Preview](image.png)
+![Homepage Preview](public/image.png)
 ---
 
 ## 🚀 Live Demo
@@ -71,9 +71,9 @@ Built to simplify the boring process of exporting Jupyter notebooks into well-fo
 
 > You can place the preview image here:
 
-![Homepage Preview](image.png)
-![Services](services.png)
-![Feedback](feedback.png)
+![Homepage Preview](public/image.png)
+![Services](public/services.png)
+![Feedback](public/feedback.png)
 
 ---
 
