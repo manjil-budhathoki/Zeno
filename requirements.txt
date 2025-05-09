@@ -1,5 +1,6 @@
 fastapi
 uvicorn
-nbconvert
-nbformat
 weasyprint
+nbformat
+nbconvert
+python-multipart
